@@ -3,15 +3,18 @@ $text: #fcba03;
 $dark: #330240;
 $text-size: 30px;
 
-body, a {
+body {
+  margin-top: 50px;
   background-color: $background;
   color: $text;
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
+  font-size: $text-size;
 
   h2 {
+    font-size: 50px;
     font-weight: bold;
-    padding: 50px;
+    margin: 70px;
   }
 
   .title-page {
@@ -19,16 +22,49 @@ body, a {
     border: 10px solid $dark;
   }
 
-  ul {
+  ol {
+    margin-top: 50px;
     padding: 20px;
   }
 
-  li {
-    font-size: $text-size;
+  ol > li {
+    a:hover {
+      font-size: 40px;
+      color: $dark;
+    }
   }
 
-  #description {
-    font-size: $text-size;
+  #created {
+    font-size: 15px;
   }
 
+}
+
+a{
+  @extend body;
+  font-weight: bold;
+}
+
+.miscimg {
+  @media (min-width: 600px) {
+    width: 65%;
+  }
+  @media (max-width: 599px) {
+    width: 90%;
+  }
+}
+
+table {
+  margin-top: 40px;
+  border: 5px solid $dark;
+}
+
+td {
+  border: 5px solid $dark;
+  border-collapse: collapse;
+}
+
+img + div {
+  font-size: 20px;
+  margin-bottom: 30px;
 }

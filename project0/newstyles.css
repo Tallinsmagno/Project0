@@ -1,25 +1,60 @@
 body, a {
+  margin-top: 50px;
   background-color: #660478;
   color: #fcba03;
   font-family: "Comic Sans MS", cursive, sans-serif;
   text-align: center;
+  font-size: 30px;
 }
 body h2, a h2 {
+  font-size: 50px;
   font-weight: bold;
-  padding: 50px;
+  margin: 70px;
 }
 body .title-page, a .title-page {
   font-size: 75px;
   border: 10px solid #330240;
 }
-body ul, a ul {
+body ol, a ol {
+  margin-top: 50px;
   padding: 20px;
 }
-body li, a li {
-  font-size: 30px;
+body ol > li a:hover, a ol > li a:hover {
+  font-size: 40px;
+  color: #330240;
 }
-body #description, a #description {
-  font-size: 30px;
+body #created, a #created {
+  font-size: 15px;
+}
+
+a {
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .miscimg {
+    width: 65%;
+  }
+}
+@media (max-width: 599px) {
+  .miscimg {
+    width: 90%;
+  }
+}
+
+table {
+  margin-top: 40px;
+  border: 5px solid #330240;
+}
+
+td {
+  border: 5px solid #330240;
+  border-collapse: collapse;
+}
+
+img + div {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=newstyles.css.map */
