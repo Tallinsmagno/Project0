@@ -1,21 +1,24 @@
 body, a {
-  background-color: #6e0370;
-  color: #e3bd00;
+  background-color: #660478;
+  color: #fcba03;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
 }
-
-.title-page {
+body h2, a h2 {
+  font-weight: bold;
+  padding: 50px;
+}
+body .title-page, a .title-page {
   font-size: 75px;
-  border: 10px solid #e3bd00;
-  text-align: center;
+  border: 10px solid #330240;
 }
-
-ul {
-  padding: 10px;
-  text-align: center;
+body ul, a ul {
+  padding: 20px;
 }
-
-li {
+body li, a li {
+  font-size: 30px;
+}
+body #description, a #description {
   font-size: 30px;
 }
 
