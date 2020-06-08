@@ -1,0 +1,22 @@
+body, a {
+  background-color: #6e0370;
+  color: #e3bd00;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title-page {
+  font-size: 75px;
+  border: 10px solid #e3bd00;
+  text-align: center;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=newstyles.css.map */

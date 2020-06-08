@@ -1,0 +1,24 @@
+$purple: #6e0370;
+$yellow: #e3bd00;
+$dark: #e3bd00;
+
+body, a {
+  background-color: $purple;
+  color: $yellow;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.title-page {
+  font-size: 75px;
+  border: 10px solid $dark;
+  text-align: center;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  font-size: 30px;
+}
