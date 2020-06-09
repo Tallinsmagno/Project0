@@ -1,5 +1,5 @@
 body, a {
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #660478;
   color: #fcba03;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -10,6 +10,11 @@ body h2, a h2 {
   font-size: 50px;
   font-weight: bold;
   margin: 70px;
+}
+body h3, a h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 body .title-page, a .title-page {
   font-size: 75px;
@@ -57,6 +62,20 @@ a {
 img + div {
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.space {
+  padding: 50px;
+}
+
+.text-image {
+  margin: 30px;
+  width: 80%;
+  border: 5px solid #330240;
+}
+
+.entry {
+  border: 5px solid #330240;
 }
 
 /*# sourceMappingURL=newstyles.css.map */

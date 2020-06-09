@@ -4,7 +4,7 @@ $dark: #330240;
 $text-size: 30px;
 
 body {
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: $background;
   color: $text;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -15,6 +15,12 @@ body {
     font-size: 50px;
     font-weight: bold;
     margin: 70px;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
 
   .title-page {
@@ -69,4 +75,18 @@ a {
 img + div {
   font-size: 20px;
   margin-bottom: 30px;
+}
+
+.space {
+  padding: 50px;
+}
+
+.text-image {
+  margin: 30px;
+  width: 80%;
+  border: 5px solid $dark;
+}
+
+.entry {
+  border: 5px solid $dark;
 }
