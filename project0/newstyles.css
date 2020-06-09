@@ -16,6 +16,7 @@ body .title-page, a .title-page {
   border: 10px solid #330240;
 }
 body ol, a ol {
+  list-style: none;
   margin-top: 50px;
   padding: 20px;
 }
@@ -33,21 +34,22 @@ a {
 
 @media (min-width: 600px) {
   .miscimg {
-    width: 65%;
+    max-width: 65%;
   }
 }
 @media (max-width: 599px) {
   .miscimg {
-    width: 90%;
+    max-width: 90%;
   }
 }
 
-table {
+.fixed {
+  table-layout: fixed;
+  width: 100%;
   margin-top: 40px;
   border: 5px solid #330240;
 }
-
-td {
+.fixed td {
   border: 5px solid #330240;
   border-collapse: collapse;
 }

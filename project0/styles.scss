@@ -23,6 +23,7 @@ body {
   }
 
   ol {
+    list-style: none;
     margin-top: 50px;
     padding: 20px;
   }
@@ -40,28 +41,29 @@ body {
 
 }
 
-a{
+a {
   @extend body;
   font-weight: bold;
 }
 
 .miscimg {
   @media (min-width: 600px) {
-    width: 65%;
+    max-width: 65%;
   }
   @media (max-width: 599px) {
-    width: 90%;
+    max-width: 90%;
   }
 }
 
-table {
+.fixed {
+  table-layout: fixed;
+  width: 100%;
   margin-top: 40px;
   border: 5px solid $dark;
-}
-
-td {
-  border: 5px solid $dark;
-  border-collapse: collapse;
+  td {
+    border: 5px solid $dark;
+    border-collapse: collapse;
+  }
 }
 
 img + div {
