@@ -1,0 +1,92 @@
+$background: #660478;
+$text: #fcba03;
+$dark: #330240;
+$text-size: 30px;
+
+body {
+  margin: 30px;
+  background-color: $background;
+  color: $text;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  font-size: $text-size;
+
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 70px;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .title-page {
+    font-size: 75px;
+    border: 10px solid $dark;
+  }
+
+  ol {
+    list-style: none;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  ol > li {
+    a:hover {
+      font-size: 40px;
+      color: $dark;
+    }
+  }
+
+  #created {
+    font-size: 15px;
+  }
+
+}
+
+a {
+  @extend body;
+  font-weight: bold;
+}
+
+.miscimg {
+  @media (min-width: 600px) {
+    max-width: 65%;
+  }
+  @media (max-width: 599px) {
+    max-width: 90%;
+  }
+}
+
+.fixed {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 40px;
+  border: 5px solid $dark;
+  td {
+    border: 5px solid $dark;
+    border-collapse: collapse;
+  }
+}
+
+img + div {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.space {
+  padding: 50px;
+}
+
+.text-image {
+  margin: 30px;
+  width: 80%;
+  border: 5px solid $dark;
+}
+
+.entry {
+  border: 5px solid $dark;
+}
